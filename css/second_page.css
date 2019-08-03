@@ -1,0 +1,39 @@
+/*关于东泰*/
+.pic_about{
+	margin: 10px auto 30px auto;
+}
+
+.about_text{
+	line-height: 30px;
+}
+
+@media (min-width: 992px){
+	header.masthead {
+	    height: 50vh!important;
+    	min-height: 30rem !important;
+	    padding-top: 72px;
+	    padding-bottom: 0;
+	}
+}
+
+/*产品详情 */	
+.back_container{
+	padding-top: 40px;
+}
+
+.go_back{
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+	color: #fff !important;
+}
+
+.product_detail{
+	padding: 4em !important;
+}
+
+.detail_pic{
+	margin-bottom: 2em;
+}
