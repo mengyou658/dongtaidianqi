@@ -7,15 +7,6 @@
 	line-height: 30px;
 }
 
-@media (min-width: 992px){
-	header.masthead {
-	    height: 50vh!important;
-    	min-height: 30rem !important;
-	    padding-top: 72px;
-	    padding-bottom: 0;
-	}
-}
-
 /*产品详情 */	
 .back_container{
 	padding-top: 40px;
@@ -35,5 +26,33 @@
 }
 
 .detail_pic{
-	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+@media (max-width: 600px) {
+	.product_detail h2{
+		font-size: 1em;
+	}
+}
+
+/*@media (max-width: 414px) {
+	.product_detail h2{
+		line-height: 0px;
+	}
+}*/
+
+@media (max-width: 320px) {
+	.product_detail h2{
+		font-size: 0.725em;
+	}
+}
+
+@media (min-width: 992px){
+	header.masthead {
+	    height: 50vh!important;
+    	min-height: 30rem !important;
+	    padding-top: 72px;
+	    padding-bottom: 0;
+	}
 }
